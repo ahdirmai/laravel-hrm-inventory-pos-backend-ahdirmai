@@ -31,6 +31,9 @@ class DatabaseSeeder extends Seeder
             UserHasRoleSeeder::class,
             HolidaySeeder::class,
             LeaveTypeSeeder::class,
+            LeaveSeeder::class,
+            AttendanceSeeder::class,
+            PayrollSeeder::class,
         ]);
     }
 }

@@ -19,5 +19,7 @@ class UserSeeder extends Seeder
             'email' => 'ridha@gmail.com',
             'password' => Hash::make('password'),
         ]);
+
+        User::factory()->count(10)->create();
     }
 }
